@@ -1,0 +1,76 @@
+@import url('https://fonts.cdnfonts.com/css/merry-christmas');
+@import url('https://fonts.cdnfonts.com/css/andrea');
+
+
+body {
+    background: url(../img/1619052999_26-phonoteka_org-p-zadnii-fon-dlya-fotoshopa-goroda-27.jpg);
+    background-size: cover;
+}
+
+#form {
+    text-align: center;
+    box-shadow: 71px -15px 34px 54px rgba(0, 0, 0, 0.43);
+    margin-bottom: 20px;
+}
+
+#inp {
+    margin: 20px;
+    box-shadow: 1px -15px 34px 4px rgba(241, 8, 8, 0.43);
+    border-radius: 50px;
+    border-style: solid;
+    background-color: #246292;
+    padding: 7px;
+    border-color: #1480b6;
+    border-width: 5px;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+::placeholder {
+    /* font-family: 'Andrea', sans-serif; */
+    /* font-size: 22px;
+    color: white; */
+    font-style: italic;
+    text-align: center;
+}
+
+#inp:focus {
+    background-color: #f3c846;
+}
+
+button {
+    font-family: 'Comfortaa';
+    font-size: 15px;
+    color: #ffffff !important;
+    padding: 10px 25px;
+    border-radius: 5px;
+    border: 2px solid #f3c846;
+    background: #9e220a;
+    background: linear-gradient(to top, #9e220a, #f66d52);
+}
+
+button:hover {
+    color: #cccccc !important;
+    background: #f66d52;
+    background: linear-gradient(to top, #f66d52, #9e220a);
+}
+
+#map {
+    /* width: 1000px; */
+    width: 65%;
+    height: 500px;
+    margin: 10px auto;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(4, 235, 247);
+}
+
+.name {
+    font-family: 'Merry christmas', sans-serif;
+    font-size: 80px;
+    color: white
+}
